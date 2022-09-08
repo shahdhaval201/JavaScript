@@ -568,9 +568,9 @@ var FriendList = ["Rahul", "Brijesh", "Milap"];
 
 // Fat Arrow function
 
-FriendList.forEach((element, index, array) => {
-  console.log(element + " Index is " + index + " And array is  " + array);
-});
+// FriendList.forEach((element, index, array) => {
+//   console.log(element + " Index is " + index + " And array is  " + array);
+// });
 
 // Searching and Filter in an array
 // How to sort and Compare an array
@@ -684,14 +684,82 @@ FriendList.forEach((element, index, array) => {
 //     console.log("No data found");
 // }
 
-const months = ["jan", "March", "April", "June", "July"];
+// const months = ["jan", "March", "April", "June", "July"];
 
-const indexOfMonth = months.indexOf("July");
+// const indexOfMonth = months.indexOf("July");
 
-if (indexOfMonth !== -1) {
-  const updateMonth = months.splice(indexOfMonth, Infinity);
-  console.log(months);
-  console.log(updateMonth);
-} else {
-  console.log("No data found");
-}
+// if (indexOfMonth !== -1) {
+//   const updateMonth = months.splice(indexOfMonth, Infinity);
+//   console.log(months);
+//   console.log(updateMonth);
+// } else {
+//   console.log("No data found");
+// }
+
+// Find the square root of each element in an array
+
+// let array1 = [25, 36, 49, 64];
+
+// let arraySqr = array1.map((curElem) => {
+//   return Math.sqrt(curElem);
+// });
+
+// console.log(arraySqr);
+
+// Multiply each element by 2 and return only those element which are greater than 10?
+
+// let arr = [2, 3, 4, 6, 8];
+
+// let arr1 = arr
+//   .map((curElem) => curElem * 2)
+//   .filter((curElem) => curElem > 10)
+//   .reduce((accumulator, curElem) => {
+//     return (accumulator += curElem);
+//   }, 8);
+
+// console.log(arr1);
+
+// reduce method
+
+// flatten an array means to convert the 3d or 2d array into a single dimensional array
+
+// const Array2D = [
+//   ["zone_1", "zone_2"],
+//   ["zone_3", "zone_4"],
+//   ["zone_5", "zone_6"],
+//   ["zone_7", "zone_8"],
+// ];
+
+// let flatarry = Array2D.reduce((accumulator, curElem) => {
+//   return accumulator.concat(curElem);
+// });
+
+// console.log(flatarry);
+
+// The reduce() method executes a reducer function (that you provide)
+// on each element of the array, resulting in a single output value.
+
+// the reducer funtion takes four arguments :
+
+// accumulator
+// current value
+// current index
+// source array
+
+// let arr = [2, 3, 4, 6, 8];
+
+// let sum = arr.reduce((accumulator, curElem) => {
+//   return (accumulator *= curElem);
+// });
+
+// console.log(sum);
+
+// What we will do
+
+// Escape Character
+// Finding a string in a string
+// Searching for a String in a string
+// Extracting string parts
+// Replacing string content
+// Extracting String Character
+// Other useful methods
